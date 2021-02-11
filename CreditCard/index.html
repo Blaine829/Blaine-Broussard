@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Enter Credit Card Number</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+        <form action="https://wocoders.com/~dave/cosc335/echo_post.php" method="POST">
+            <ul>
+                <li>
+                    <label for="card-number">Credit Card #:</label>
+                    <input type="text" name="card-number" id="card-number" required>
+                </li>
+                <li>
+                    <input type="submit" value="Submit" disabled>
+                </li>
+            </ul>
+        </form>
+
+        <script src="js/validate-card.js"></script>
+    </body>
+
+</html>
